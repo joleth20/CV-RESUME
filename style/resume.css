@@ -1,0 +1,182 @@
+:root{
+    /* Color Theme */
+    --regular-color:#FFFFFF;    
+    --theme-background:#A6A6A6;
+    --primary:#595656;
+    --normal:#000;
+}
+    
+
+/* Left sideBar */
+.main .left{
+ height: 100%;
+ width: 350px;
+ padding: 30px 0px;
+background-color: var(--primary);
+color: var(--regular-color);    
+/* layout */
+display: flex;
+flex-direction: column;
+}
+
+.main .left .image-container{
+height: 350px;
+width: 100%;
+/* layout */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.main .left .image-container img{
+    width: 230px;
+    height: 250px;
+}
+
+.main .left .my-information{
+    height:  100%;
+    width: 100%;
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+/* End Left sideBar */
+
+/* Right sidebar */
+.main .right{
+    position: relative;
+    height: 100%;
+    width: 100%;
+   background-color: var(--regular-color);
+   cursor: pointer;
+   z-index: 1;
+   /* layout */
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.main .right .top-svg{
+    position: absolute;
+    z-index: -1;
+}
+
+.main .right .bottom-svg{
+    position: absolute;
+    top: 89.1%;
+    z-index: -1;
+}
+
+.main .right .header-name{
+    height: 100%;
+    width: 100%;
+    padding: 0px 30px;
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.main .right .header-name h1{
+    color: var(--normal);
+    font-size: 48px;
+}
+
+.main .right .header-name p{
+    color: var(--normal);
+    font-size: 23px;
+    margin-right: 140px;
+}
+
+.main .right .about-myself{
+    height: 100%;
+    width: 100%;
+    padding: 0px 30px;
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;    
+}
+
+.main .right .experience{
+    height: 100%;
+    width: 100%;
+    padding: 0px 30px;    
+}
+
+
+.main .right .education{
+    height: 100%;
+    width: 100%;
+    padding: 0px 30px;
+}
+
+.main .right .education .education-info{
+    height: 100%;
+    width: 100%;   
+    /* layout */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .right .education .education-info .year{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main .right .education .education-info .year .elementary{
+    /* layout */
+    display: flex;
+    column-gap: 300px;
+}
+
+.main .right .education .education-info .year .elementary span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main .right .education .education-info .year .highschool{
+    /* layout */
+    display: flex;
+    column-gap: 240px;
+}
+
+.main .right .education .education-info .year .highschool span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.main .right .education .education-info .year .senior-high{
+    /* layout */
+    display: flex;
+    column-gap: 260px;
+}
+
+.main .right .education .education-info .year .senior-high span{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+
+.main .right .education .education-info .year .college{
+    /* layout */
+    display: flex;
+    column-gap: 160px;
+}
+
+.main .right .education .education-info .year .college span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

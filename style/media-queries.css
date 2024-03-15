@@ -1,0 +1,91 @@
+/* Media Queries */
+
+@media  (max-width:400px){
+    .main{
+        /* layout */
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .main .left{
+    width: 100%;
+    overflow: hidden;
+    }
+
+    .main .left .image-container img {
+        width: 260px;
+        height: 260px;
+    }
+
+    
+    .main .right{
+        overflow: hidden;
+    }
+
+    .main .right .top-svg {
+        height: 200px;
+    }
+
+    .main .right .bottom-svg {
+        top: 93.1%;
+    }
+
+    .main .right .header-name {
+        align-items: center;
+    }
+
+    .main .right .header-name h1 {
+        color: var(--normal);
+        font-size: 35px;
+    }
+
+
+    .main .right .header-name p {
+        color: var(--normal);
+        font-size: 24px;
+       all: unset;
+    }
+
+    .main .right .about-myself {
+        text-align: center;
+        align-items: center;
+    }
+ 
+
+    .main .right .experience {
+        text-align: center;
+    }
+
+    .main .right .education {
+        height: 100%;
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 15px;
+    }
+   
+    .main .right .education {
+        text-align: center;
+    }
+   
+    .main .right .education .education-info .year .elementary {
+        display: flex;
+        column-gap: unset;
+    }
+  
+    .main .right .education .education-info .year .highschool {
+        display: flex;
+        column-gap: unset;
+    }
+
+    .main .right .education .education-info .year .senior-high {
+        display: flex;
+        column-gap: unset;
+    }
+
+    .main .right .education .education-info .year .college {
+        display: flex;
+        column-gap: unset;
+    }
+
+}
